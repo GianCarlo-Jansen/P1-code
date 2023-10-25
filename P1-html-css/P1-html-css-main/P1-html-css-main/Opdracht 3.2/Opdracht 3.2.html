@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TUI Boekingsformulier</title>
+    <link rel="stylesheet" type="text/css" href="Opdracht 3.2.css" /> 
+</head>
+<body>
+    <form>
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" id="voornaam" name="voornaam" required pattern="[A-Za-z]+" />
+
+        <label for="achternaam">Achternaam:</label>
+        <input type="text" id="achternaam" name="achternaam" required pattern="[A-Za-z]+" />
+
+        <label>Geslacht:</label>
+        <label class="radio-label">
+            <input type="radio" name="geslacht" value="man" checked /> Man
+        </label>
+        <label class="radio-label">
+            <input type="radio" name="geslacht" value="vrouw" /> Vrouw
+        </label>
+
+        <label for="straat-huisnummer">Straat met huisnummer:</label>
+        <input type="text" id="straat-huisnummer" name="straat-huisnummer" required />
+
+        <label for="postcode">Postcode:</label>
+        <input type="text" id="postcode" name="postcode" required />
+
+        <label for="stad">Stad:</label>
+        <input type="text" id="stad" name="stad" required />
+
+        <label for="land">Land:</label>
+        <input type="text" id="land" name="land" required />
+
+        <label for="bsn">BSN-nummer:</label>
+        <input type="text" id="bsn" name="bsn" required pattern="[0-9]{1,9}" />
+
+        <label for="vakantieland">Vakantieland:</label>
+        <select id="vakantieland" name="vakantieland" required>
+            <option value="Nederland">Nederland</option>
+            <option value="Spanje">Spanje</option>
+            <option value="Frankrijk">Frankrijk</option>
+        </select>
+
+        <label for="vertrekdatum">Datum van

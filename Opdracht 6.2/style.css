@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    
+}
+
+.square1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+    flex: 1; 
+}
+.square2 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 10px;
+    flex: 1; 
+}
+.square3 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+    flex: 1; 
+}
+.square4 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+    flex: 1; 
+}

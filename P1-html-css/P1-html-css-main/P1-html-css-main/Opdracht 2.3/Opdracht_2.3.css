@@ -1,0 +1,21 @@
+html{
+    background-color: yellow;
+}
+h1 {
+    font-size: 24px;
+    color: purple;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 30px;
+    color: green;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
